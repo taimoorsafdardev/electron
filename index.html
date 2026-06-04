@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>elec — Download</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #f5f5f5;
+        color: #111;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+      }
+
+      .card {
+        background: #fff;
+        border-radius: 16px;
+        border: 1px solid #e5e5e5;
+        padding: 3rem 2.5rem;
+        max-width: 480px;
+        width: 100%;
+        text-align: center;
+      }
+
+      .icon {
+        width: 72px;
+        height: 72px;
+        background: #eff6ff;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 1.5rem;
+        font-size: 36px;
+      }
+
+      h1 {
+        font-size: 26px;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+
+      .meta {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 2rem;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 28px;
+        background: #2563eb;
+        color: #fff;
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+        transition: background 0.15s;
+      }
+      .btn:hover {
+        background: #1d4ed8;
+      }
+
+      .note {
+        font-size: 12px;
+        color: #999;
+        margin-top: 1rem;
+      }
+
+      .features {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid #eee;
+      }
+
+      .feature {
+        font-size: 13px;
+        color: #555;
+      }
+      .feature span {
+        display: block;
+        font-weight: 600;
+        color: #111;
+        margin-top: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="icon">⚡</div>
+      <h1>elec</h1>
+      <p class="meta">Version 0.0.0 &middot; Windows x64</p>
+
+      <a class="btn" href="/elec-setup.exe" download>
+        ⬇ Download for Windows
+      </a>
+      <p class="note">Portable .exe &middot; No installation required</p>
+
+      <div class="features">
+        <div class="feature">📦<span>Portable</span></div>
+        <div class="feature">🪟<span>Windows 10+</span></div>
+        <div class="feature">🆓<span>Free</span></div>
+      </div>
+    </div>
+  </body>
+</html>
